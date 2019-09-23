@@ -7,7 +7,9 @@ command_settings = {
 
 @click.command(context_settings=command_settings)
 def main():
-    click.echo("Life before death")
+    click.echo(
+        "Life before death, strength before weakness, "
+        "journey before destination")
 
 
 if __name__ == "__main__":
