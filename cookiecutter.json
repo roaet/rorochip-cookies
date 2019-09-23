@@ -1,0 +1,13 @@
+{
+    "project_name": "",
+    "project_url": "",
+    "author_name": "",
+    "author_email": "",
+    "project_slug": "{{cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_')}}",
+    "app_name": "{{ cookiecutter.project_slug }}",
+    "cli_script": "{{ cookiecutter.project_slug }}",
+    "project_version": "0.1.0.dev0",
+    "sphinx_theme": "alabaster",
+    "description": "{{ cookiecutter.project_name }} is a Python CLI application generated from https://github.com/roaet/rorochip-cookies",
+    "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"]
+}
